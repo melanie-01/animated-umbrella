@@ -16,6 +16,15 @@ namespace ConsoleApp1
             Console.WriteLine(fullName);
             Console.ReadLine();
             //Albert
+            for (int row = 0; row < 10; row++)
+            {
+                for (int col = 0; col <= row; col++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+            Console.ReadLine();
         }
     }
 }
